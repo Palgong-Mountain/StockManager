@@ -1,0 +1,26 @@
+{
+  "name": "stockmanager",
+  "version": "1.0.0",
+  "description": "주식 어플리케이션 제작",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Palgong-Mountain/StockManager.git"
+  },
+  "author": "GyeongHoKim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Palgong-Mountain/StockManager/issues"
+  },
+  "homepage": "https://github.com/Palgong-Mountain/StockManager#readme",
+  "dependencies": {
+    "create-react-app": "^4.0.3",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "yarn": "^1.22.10"
+  }
+}
